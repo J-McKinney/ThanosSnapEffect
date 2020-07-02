@@ -1,3 +1,5 @@
+/* eslint-disable no-useless-concat */
+/* eslint-disable no-unused-vars */
 import html2canvas from "html2canvas";
 import Chance from "chance";
 import $ from "jquery";
@@ -131,11 +133,11 @@ export const animateTransform = (elem, sx, sy, angle, duration) => {
       duration: duration,
       easing: "easeInQuad",
       step: function (now, fx) {
-        if (fx.prop == "x") {
+        if (fx.prop === "x") {
           tx = now;
-        } else if (fx.prop == "y") {
+        } else if (fx.prop === "y") {
           ty = now;
-        } else if (fx.prop == "deg") {
+        } else if (fx.prop === "deg") {
           td = now;
         }
         elem.css({
