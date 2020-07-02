@@ -1,4 +1,4 @@
-import "./thanossnap.css";
+import "./ThanosSnap.css";
 
 import SnapButton from "./SnapButton";
 import SnapWrapper from "./SnapWrapper";
