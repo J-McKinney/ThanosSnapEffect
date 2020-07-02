@@ -1,24 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
+import image from "../public/assets/image.png";
+import { SnapWrapper } from "../src/Snap/SnapWrapper";
+// import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SnapWrapper delay={1000} resume="auto">
+        <img alt={""} src={image} />
+      </SnapWrapper>
     </div>
   );
 }
