@@ -1,5 +1,5 @@
 import React from "react";
-import image from "./assets/image.png";
+import image from "./assets/taco.png";
 import { SnapWrapper } from "../src/Snap/index";
 // import logo from "./logo.svg";
 import "./App.css";

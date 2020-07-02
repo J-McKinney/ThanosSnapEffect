@@ -13,8 +13,8 @@ export const createCanvas = (element) => {
     element.childNodes.forEach((node) => (node.style.visibility = "hidden"));
     //capture all div data as image
     let ctx = canvas.getContext("2d");
-    console.log([canvas.width, canvas.height]);
-    console.log([element.offsetWidth, element.offsetHeight]);
+    // console.log([canvas.width, canvas.height]);
+    // console.log([element.offsetWidth, element.offsetHeight]);
     let imageData = ctx.getImageData(
       0,
       0,
