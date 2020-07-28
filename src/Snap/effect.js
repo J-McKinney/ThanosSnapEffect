@@ -15,13 +15,17 @@ export const createCanvas = (element) => {
     element.childNodes.forEach((node) => (node.style.visibility = "hidden"));
     //capture all div data as image
     let ctx = canvas.getContext("2d");
-    // console.log([canvas.width, canvas.height]);
-    // console.log([element.offsetWidth, element.offsetHeight]);
+    // console.log("canvas width: " + canvas.width)
+    // console.log("canvas height: " + canvas.height)
+    // console.log("element.offsetWidth: " + element.offsetWidth)
+    // console.log("element.offsetHeight: " + element.offsetHeight)
     let imageData = ctx.getImageData(
       0,
       0,
       element.offsetWidth,
       element.offsetHeight
+      // canvas.width,
+      // canvas.height
     );
     let pixelArr = imageData.data;
     createBlankImageData(imageData);
@@ -44,6 +48,8 @@ export const createCanvas = (element) => {
         imageDataArray[i],
         element.offsetWidth,
         element.offsetHeight
+        // canvas.width,
+        // canvas.height
       );
       c.classList.add("dust");
       container.appendChild(c);
