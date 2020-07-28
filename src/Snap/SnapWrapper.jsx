@@ -23,6 +23,8 @@ const SnapWrapper = ({ children, delay, resume }) => {
           await resolveAfterMs(delay * 5);
           // console.log(delay * 5);
           setSnap(false);
+          // setting setSnap to false will bring image back after delay
+          // setting it to true, need to click button again to bring image back
         }
       }
     };
