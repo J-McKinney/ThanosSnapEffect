@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b657c6a6.chunk.css",
+    "main.js": "/static/js/main.6b23f3ad.chunk.js",
+    "main.js.map": "/static/js/main.6b23f3ad.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.35432d51.js",
+    "runtime-main.js.map": "/static/js/runtime-main.35432d51.js.map",
+    "static/js/2.72217ddb.chunk.js": "/static/js/2.72217ddb.chunk.js",
+    "static/js/2.72217ddb.chunk.js.map": "/static/js/2.72217ddb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.20367e1e1871fa6551c924c033523a2e.js": "/precache-manifest.20367e1e1871fa6551c924c033523a2e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b657c6a6.chunk.css.map": "/static/css/main.b657c6a6.chunk.css.map",
+    "static/js/2.72217ddb.chunk.js.LICENSE.txt": "/static/js/2.72217ddb.chunk.js.LICENSE.txt",
+    "static/media/ThanosSnap.css": "/static/media/gauntlet-snap.a34f556e.gif",
+    "static/media/image.png": "/static/media/image.9cd83ab1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35432d51.js",
+    "static/js/2.72217ddb.chunk.js",
+    "static/css/main.b657c6a6.chunk.css",
+    "static/js/main.6b23f3ad.chunk.js"
+  ]
+}
