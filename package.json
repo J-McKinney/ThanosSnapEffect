@@ -1,5 +1,7 @@
 {
-  "name": "thanos-snap-effect",
+  "name": "ThanosSnapEffect",
+  "Author": "Jesse McKinney",
+  "homepage": "https://j-mckinney.github.io/ThanosSnapEffect/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
